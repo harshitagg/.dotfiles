@@ -1,0 +1,22 @@
+[color]
+	ui = true
+[alias]
+        co = checkout
+        ci = commit
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+        d = diff
+        s = status
+        l = log
+        dc = diff --cached
+        gl = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	logr = log --format=raw
+	lol = log --oneline --graph --all --decorate
+[color]
+        ui = auto
+        diff = auto
+[user]
+	name = Harshit Agarwal
+	email = harshitagarwal90@gmail.com
