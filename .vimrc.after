@@ -1,0 +1,6 @@
+let g:Powerline_symbols = 'fancy'
+set encoding=utf-8
+set ruler
+syntax enable
+set background=dark
+colorscheme solarized
